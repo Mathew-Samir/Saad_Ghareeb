@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/4.JPG");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.background{
+    background-image: url("images/2.JPG");
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    /*text-transform: uppercase;*/
+    margin: 0px 0;
+    /*letter-spacing: 2px;*/
+    /* color: white;*/
+}
+
+.container .header img{
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    margin-top: 90px;
+}
+.container .header h2{
+    color: white;
+}
+.profile_image{
+    box-shadow: 4px 4px 4px #adacac;
+}
+.container .header .logo1 img{
+    width: 277px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    margin-right: -20px;
+}
+
+.body{
+    padding: 0px 0;
+    text-align: center;
+}
+
+.body button{
+    width: 90%;
+    height: 60px;
+    border-radius: 16px;
+    border:none;
+    box-shadow: 4px 4px 4px #adacac;
+    background-color: rgb(237, 156, 42);
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.body button:hover{
+    background-color: rgb(201, 47, 47);
+    color: white;
+}
+
+.body button i{
+    margin: 0 5px;
+}
+
+.body .phone button{
+    display: inline-block;
+    width: 42%;
+    margin: 10 0;
+    margin-left: 4px;
+}
+
+.container .logo{
+    text-align: center;
+}
+.container .logo img{
+    width: 220px;
+    height: 150px;
+}
+
+.footer {
+    background-color: #cecece;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer .container p{
+    font-size: 12px;
+}
